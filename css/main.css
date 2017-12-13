@@ -105,6 +105,7 @@ footer {
 }
 */
 
+/* Queries */
 /* Mobile */
 @media (max-width: 768px) {
   .navbar {
@@ -115,6 +116,7 @@ footer {
     background-image: url(../assets/images/taxi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 100vh;
     max-width: 100%;
     
@@ -130,11 +132,22 @@ footer {
 }
 
 /* Tablet */
-@media (min-width: 768) and (max-width: 992) {
+@media (min-width: 768px) and (max-width: 992px) {
 
 }
 
 /* Destop */
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
+  .navbar {
+    margin-bottom: 0px;
+  }
   
+  .col-lg-12 {
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+  }
 }
