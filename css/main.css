@@ -52,6 +52,47 @@ footer {
   padding: 10px 15px;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
+.cell-xs-3 {
+  height: 25%;
+}
+
+.cell-xs-6 {
+  height: 50%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-9 {
+  width: 75%;
+  height: 100%;
+  float: right;
+  background-color: #f7b637;
+}
+
+.container {
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  max-width: 100%;
+  
+}
+
+.driver {
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+}
+
 [class^="fa"] {
   color: #fff;
 }
@@ -59,11 +100,6 @@ footer {
 .glyphicon-play:before {
   content: "\e072";
   color: white;
-}
-
-[class^="col-"] {
-  float: left;
-
 }
 
 /* column default 
@@ -104,50 +140,3 @@ footer {
   width: 100%;
 }
 */
-
-/* Queries */
-/* Mobile */
-@media (max-width: 768px) {
-  .navbar {
-    margin-bottom: 0px;
-  }
-
-  .col-xs-12 {
-    background-image: url(../assets/images/taxi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    max-width: 100%;
-    
-  }
-
-  .driver {
-    background-image: url(../assets/images/conduce.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    max-width: 100%;
-  }
-}
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 992px) {
-
-}
-
-/* Destop */
-@media (min-width: 1024px) {
-  .navbar {
-    margin-bottom: 0px;
-  }
-  
-  .col-lg-12 {
-    background-image: url(../assets/images/taxi.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    
-  }
-}
