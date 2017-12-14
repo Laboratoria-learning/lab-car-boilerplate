@@ -1,1 +1,29 @@
 /* Los estilos de tu proyecto */
+
+header{
+    
+    color: #fff;
+}
+
+aside {
+    background: rgba(255, 51, 0, 0.945);
+}
+section {
+    background: #ffc107;
+}
+.imag {
+    width: 100%;
+}
+.descarga {
+    background: #ffc107;
+    
+    position: relative;
+    bottom: 25rem;
+}
+.app {
+    text-align: center;
+    outline:1px solid #fff;
+
+}.plus {
+    width: 80%;
+}
