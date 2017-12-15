@@ -1,1 +1,33 @@
 /* Los estilos de tu proyecto */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 80px;
+}
+
+.navbar{
+    background: #fff;
+    border-bottom-color: #fff;
+}
+
+footer{
+    background: lightslategray;
+}
+
+article{
+    background: lightsalmon;
+}
+
+aside{
+    background: seagreen;
+}
+
+.color{
+    background:slateblue;
+}
+

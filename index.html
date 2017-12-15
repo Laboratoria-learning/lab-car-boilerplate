@@ -1,39 +1,116 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LabCar Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <header class=" container-fluid">
-        <div class=" container  row ">
-        <div class="col-md-7">
-            <img src="assets/images/logoForma.png" alt="logoForma">
+  <!-- mobile first -->
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- creando menu hamburguesa para version mobile -->
+          <div class="nabvar-header">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logoForma.png" width="130" height="30" alt="">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="toggle" data-target="#navbar-1">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- creando menu version desktop -->
+          <div class="collapse navbar-collapse" id="navbar-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">Viaja</a>
+              </li>
+              <li>
+                <a href="">Conduce</a>
+              </li>
+              <li>
+                <a href="">Inicia Sesión</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-4">
-            <ul class="nav nav-pills">
-                <li role="presentation" ><a href="#">Disabled link</a></li>
-                <li role="presentation" ><a href="#">Disabled link</a></li>
-                <li role="presentation" ><a href="#">Disabled link</a></li>
-              </ul>
-        </div>
-    </div>
-    <div>
-        hola
-    </div>
+      </nav>
     </header>
+  </div>
+  <div class="container">
+    <section class="main row">
+      <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+        <h3>Article-Article</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium eum, repellendus veritatis, numquam illum
+          nulla voluptas mollitia dignissimos id architecto? Voluptates, laudantium. Itaque reprehenderit molestiae omnis
+          quia earum unde?
+        </p>
+      </article>
+      <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <h3>Sidebar-Aside</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quis iure quidem, aspernatur doloribus animi numquam
+          repudiandae nisi officiis unde nesciunt deserunt ducimus tempora nostrum rem nobis consectetur dignissimos veniam!
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, assumenda perferendis unde corporis repellendus
+          minus nemo, quae vitae debitis, omnis voluptatem ipsa odit similique nulla eius sint hic maxime aperiam.
+        </p>
 
+      </aside>
+    </section>
+    <div class="row">
+      <div class="color col-xs-12 col-sm-6 col-md-3 ">
+        <p>
+          <h3>Columna</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
+          beatae iste quia possimus facere ex quidem,
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <p>
+          <h3>Columna</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
+          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
+        </p>
+      </div>
+      <!-- <div class="clearfix visible-sm-block"></div> -- sirve para que arreglar cuando una columna es más grande que la otra y deseamos que entre nuestros componentes se vea simetrico -->
+      <div class=" color col-xs-12 col-sm-6 col-md-3 color">
+        <p>
+          <h3>Columna</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
+          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
+        </p>
+      </div>
 
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <p>
+          <h3>Columna</h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
+          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <h3>Victoria Lung</h3>
+    </div>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
