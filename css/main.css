@@ -14,14 +14,12 @@ header {
 }
 section {
     background: #ffc107;
-}
-.imag {
-    width: 100%;
+    color: #fff;
 }
 .descarga {
     background: #ffc107;
 }
-.app {
+.app  {
     text-align: center;
     outline:1px solid #fff;
 
@@ -34,5 +32,10 @@ section {
 }
 .ima-fon {
 background: rgba(0, 0, 0, 0.6);
-color: #fff;
+
 };
+.mapa {
+    outline: 1px solid black;
+}
+
+
