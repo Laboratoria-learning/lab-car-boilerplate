@@ -3,84 +3,178 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
 	<title>LabCar</title>
 	<!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-light bg-light">
-	  <a class="navbar-brand" href="#"><img src="assets/images/logoForma.png" alt=""></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	<nav class="navbar navbar-expand-md navbar-light">
+	  <div class="container">
+      <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/images/logoForma.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Viaja </a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Conduce</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Inicia Sesón</a>
-	      </li>
-	    </ul>
-	  </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Viaja </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conduce</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicia Sesón</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 	</nav>
 
-	<div class="bg-container">
+	<section class="bg-container">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-10 ml-auto col-md-5">
-					<h2>Disfruta del viaje</h2>
-					<h2>Eres dueño de tu tiempo</h2>
-					<p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
-					<a href="">Registrate</a>
-					<span>O bien</span>
-					<hr>
-					<a href="">Conviértete en un conductor</a>
+				<div class="col-sm-10 ml-auto col-md-4 bg-yellow">
+					<div class="title-content">
+            <h2>Disfruta del viaje</h2>
+            <h2>Eres dueño de tu tiempo</h2>
+          </div>
+					<p class="section-text">Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
+					<a href="" class="btn-app bg-white uppercase">Registrate</a>
+					<span class="separation">O bien </span>
+					<a href="" class="btn-app bg-white">Conviértete en un conductor</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="app-container">
+	<section class="app-container bg-yellow section-padding">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-10 col-sm-12">
+				<div class="col-md-10 col-sm-12 phone-container">
 					<div class="row">
-						<div class="col-md-6">
-							<img src="assets/images/iPhone6Plus.png" alt="">
+						<div class="col-md-6 text-center">
+							<div class="img-container">
+								<img class="img-fluid" src="assets/images/iPhone6Plus.png" alt="">
+							</div>
 						</div>
-						<div class="col-md-6">
-							<h2>Descarga la nueva app</h2>
-							<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-							<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a donde ir</p>
+						<div class="col-md-5">
+							<div class="app-text">
+								<h2 class="section-title">Descarga la nueva app</h2>
+								<p class="section-text">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+								<p class="section-text">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a donde ir</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="conductor-bg">
+	<section class="conductor-bg">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4 col-sm-12 ml-auto">
-					<h2>Conduce cuando quieras</h2>
-					<p>LabCar es una opcón flexible para alcanzar tus metas financieras</p>
-					<a href="">Convierte en conductor</a>
+				<div class="col-md-4 col-sm-12 ml-auto conductor-content">
+					<h2 class="section-title">Conduce cuando quieras</h2>
+					<p class="section-text">LabCar es una opcón flexible para alcanzar tus metas financieras</p>
+					<a href="" class="btn-app bg-yellow">Convierte en conductor</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
+  <section class="map-container bg-yellow section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h2 class="section-title">Tarifas</h2>
+          <p>Consulta las tarifas de LabCar aquí</p>
+          <form action="">
+            <label for=""><i></i></label>
+            <input type="text" placeholder="Ingrese su punto de partida">
+            <label for=""><i></i></label>
+            <input type="text" placeholder="Ingrese su destino">
+            <a href="" class="btn-app bg-white uppercase">¡Trazar ruta!</a>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="title-footer">
+        <img src="assets/images/logoBlanco.png" alt="">
+        <hr>
+      </div>
+      <div class="row footer-content">
+        <div class="single-content col-md-3 col-sm-12">
+          <div class="social">
+            <ul>
+              <li><a href=""><i></i></a></li>
+              <li><a href=""><i></i></a></li>
+              <li><a href=""><i></i></a></li>
+              <li><a href=""><i></i></a></li>
+              <li><a href=""><i></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="single-content col-md-3 col-xs-6">
+          <ul>
+            <li><a href="">Viaja</a></li>
+            <li><a href="">Conduce</a></li>
+            <li><a href="">Ciudades</a></li>
+            <li><a href="">Ciudades</a></li>
+            <li><a href="">Entregas</a></li>
+            <li><a href="">Como funciona?</a></li>
+            <li><a href="">Paises</a></li>
+            <li><a href="">Seguridad</a></li>
+          </ul>
+        </div>
+        <div class="single-content col-md-3">
+          <ul>
+            <li><a href="">Oportunidades</a></li>
+            <li><a href="">Nuestra Historia</a></li>
+            <li><a href="">API de LabCar</a></li>
+            <li><a href="">Eventos</a></li>
+            <li><a href="">Desarroladores</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Laboratoria</a></li>
+            <li><a href="">Coders</a></li>
+          </ul>
+        </div>
+        <div class="single-content col-md-3 col-xs-6">
+          <img src="assets/images/appstore.png" alt="">
+          <img src="assets/images/enBadgeWebGeneric.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
 
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUQTayBoCnk6ubOtvEHcz0rZHVX_NcqQ4"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
