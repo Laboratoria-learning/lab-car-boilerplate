@@ -42,27 +42,49 @@
   background-size: cover;
 }
 
-.section-two {
-  padding: 2em 1em 0 1em;
+@media only screen and (max-width : 992px) {
+  .section-two-xs {
+    padding: 2em 1em 0 1em;
+ }
+
+  .mobile-box-xs {
+    border: 1px solid #fff;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding: 2em;
+  }
+
+  .first-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .second-text {
+    font-size: 16px;
+  }
 }
 
-.mobile-box {
-  border: 1px solid #fff;
-  font-weight: bold;
-  margin-bottom: 1em;
-  padding: 2em;
+@media only screen and (min-width : 1024px) {
+  .section-two-lg {
+    padding: 2em 0;
+ }
+  .mobile-box-lg {
+    border: 1px solid #fff;
+    border-left: 0;
+    padding: 1em;
+  }
+
+  .textbox {
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+  }
 }
 
-.first-text {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
 
-.second-text {
-  font-size: 16px;
-  font-weight: bold;
-}
+
+
+
+
 
 .bg-section-three {
   background-image: url(../assets/images/conduce.jpg);
