@@ -37,5 +37,15 @@ background: rgba(0, 0, 0, 0.6);
 .mapa {
     outline: 1px solid black;
 }
-
+footer {
+    background: rgb(24, 24, 31);
+}
+.link-area {
+    padding-left: 0;
+}
+.link-area li {
+    list-style-type:none;
+    color: #fff;
+    
+}
 
