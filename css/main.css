@@ -171,6 +171,14 @@ h3 {
     content: url(../assets/images/full-map.png);
   }
 
+  .footer-section {
+    padding: 4em 6em 3em 6em;
+  }
+
+  .apps {
+    transform: translateY(75px);
+  }  
+
 }
 
 /*Estilos de la sección 3*/
@@ -306,7 +314,41 @@ footer {
   margin-bottom: 1em;
 }
 
+.social-networks {
+  transform: translateY(220px);
+}
+
 .labcar-brand {
   padding-bottom: 1em;
   padding-left: 2em;
+}
+
+/*Estilos de Modales*/
+.modal-content-register {
+  background-color: #08ac9d;
+}
+/*
+.modal-body-register {
+  padding: 0 10em 1em 10em;
+}
+*/
+.modal-user {
+  text-align: center;
+}
+
+.input-group, .btn-warning {
+  margin: 1em;
+}
+
+.profile {
+  border-radius: 7px;
+  width: 200px;
+  margin-top: 1.5em;
+}
+
+.log-in-input {
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  padding: 2em;
+  text-align: center;
 }
