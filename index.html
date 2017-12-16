@@ -1,4 +1,3 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>LabCar</title>
 </head>
@@ -27,7 +25,6 @@
           <div class="col-xs-9 col-md-offset-6 col-md-pull-6">
               <a class="navbar-brand" href="#"></a>
           </div>
-          
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,12 +65,10 @@
   <!-- Second section -->
   <section class="section-two-xs section-two-lg  bg-yellow">
     <div class="row mobile-box-xs mobile-box-lg col-xs-12 col-lg-10">
-      
         <div class="col-md-6 col-lg-6"> 
           <p class="white first-text visible-xs visible-sm">La nueva app</p>
           <img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="mobile">
         </div>
-      
         <div class="textbox white visible-md visible-lg col-md-4 col-lg-4">
          <h3>Descarga la nueva app</h3><br>
          <p>
@@ -83,16 +78,13 @@
           Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.
           </p>
         </div>
-
-
-    
     </div>
     <div class="row bg-yellow">
       <p class="white second-text visible-xs visible-sm">Llega a tu destino aún más rápido</p>
     </div>
   </section>
 
-  <!-- three section -->
+  <!-- third section -->
   <section class="bg-section-three">
     <div class="row">
       <div class=".col-xs-12 col-md-offset-7 col-md-push-5">
@@ -106,29 +98,41 @@
   </section>
 
   <!-- Fourth section -->
-  <section class="bg-yellow">
+  <section class="bg-yellow white section-four">
     <div class="row">
-      <h3>Tarifas</h3>
-      <p>Consulta las tarifas LabCar aquí</p>
-      <div></div>
-      <button>¡TRAZAR RUTA!</button>
-    </div>
-    <div class="row">
-      <img src="" alt="Mapa">
+      <div class="rate col-xs-12 col-md-6 col-lg-6">
+          <h4><strong>Tarifas</strong></h4>
+          <h5>Consulta las tarifas LabCar aquí</h5>
+          <div class="my-way">
+            <img src="assets/images/shape.png" alt="circle">
+            <input class="track-1" type="text" placeholder="Ingrese su punto de partida">
+          </div>
+          <div class="my-way">
+            <img src="assets/images/shape2.png" alt="arrow">
+            <input class="track-2" type="text" placeholder="Ingrese su destino">
+          </div>
+          <div class="my-btn">
+            <button class="btn btn-default">¡TRAZAR RUTA!</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6">
+              <img class="img-responsive img-map change-map" src="assets/images/map.jpeg" alt="google-map">
+          </div>
+      </div>
     </div>
   </section>
   
   <!-- Footer -->
   <footer>
     <div class="row">
-      <div class="col-xs-12 col-md-offset-6 col-md-pull-6">
+      <div class="col-xs-12 col-md-offset-6 col-md-pull-6 logo-box">
         <img class="log-footer" src="assets/images/logoBlanco.png" alt="Logo Blanco">
       </div>
     </div>
-    
-    <hr>
+
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-xs-6 col-sm-6">
         <ul class="white log-footer">
           <li>Viaja</li>
           <li>Conduce</li>
@@ -139,27 +143,31 @@
           <li>Seguridad</li>
         </ul>
       </div>
-      <div class="col-xs-6">
+      <div class="col-xs-6 col-sm-6">
         <div class="social-networks white">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <i class="fa fa-apple" aria-hidden="true"></i>
-          <i class="fa fa-play" aria-hidden="true"></i>
+          <i class="fa fa-facebook icons" aria-hidden="true"></i>
+          <i class="fa fa-twitter icons" aria-hidden="true"></i>
+          <i class="fa fa-linkedin icons" aria-hidden="true"></i>
+          <i class="fa fa-apple icons" aria-hidden="true"></i>
+          <i class="fa fa-play icons" aria-hidden="true"></i>
         </div>
         <div class="app-site">
-          <img src="assets/images/enBadgeWebGeneric.png" alt="Google play" class="img-responsive">
+          <img src="assets/images/enBadgeWebGeneric.png" alt="Google play" class="img-responsive google">
           <img src="assets/images/appstore.png" alt="App store" class="img-responsive">
         </div>
       </div>
     </div>
-    <hr>
+ 
     <div class="row">
-      <i class="fa fa-copyright white" aria-hidden="true"></i>
-      <span class="white">2017 LabCar technologies Inc.</span> 
+      <div class="col-xs-12 labcar-brand">
+          <i class="fa fa-copyright white" aria-hidden="true"></i>
+          <span class="white">2017 LabCar technologies Inc.</span> 
+      </div>
     </div>
   </footer>
+  <!--Enlaces js-->
   <script src="vendors/js/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

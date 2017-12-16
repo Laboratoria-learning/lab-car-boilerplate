@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
 }
 
 .bg-yellow {
@@ -32,10 +31,6 @@
   width: 50%;
 }
 
-.log-footer {
-  padding: 10px 10px 0;
-}
-
 .navbar-default .navbar-toggle {
   float: left;
   margin: 0;
@@ -48,7 +43,7 @@
 
 .bg-section-one {
   background-image: url(../assets/images/taxi.jpg);
-  background-position: center center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -68,6 +63,7 @@
   border-color: #fff;
   background-color: #fff;
   color: inherit;
+  
 }
 
 h1, .btn-start, .text-desktop, .btn-section-three {
@@ -78,6 +74,14 @@ h1, .btn-start, .text-desktop, .btn-section-three {
   font-size: 24px;
 }
 
+.btn-start {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+ 
+}
+
+/*Estilos de la sección 2*/
 @media only screen and (max-width : 992px) {
   .section-two-xs {
     padding: 2em 1em 0 1em;
@@ -103,7 +107,7 @@ h1, .btn-start, .text-desktop, .btn-section-three {
 @media only screen and (min-width : 1024px) {
   .section-two-lg {
     padding: 2em 0;
- }
+  }
   .mobile-box-lg {
     border: 1px solid #fff;
     border-left: 0;
@@ -115,20 +119,22 @@ h1, .btn-start, .text-desktop, .btn-section-three {
     letter-spacing: 0.7px;
   }
   
+  .rate {
+    padding: 3em 8em 3em 7em;
+  }
+
+  .change-map {
+    content: url(../assets/images/full-map.png);
+  }
+
 }
 
-.btn-start {
-  color: #333;
-  background-color: #fff;
-  border-color: #fff;
-}
-
-/* Section three */
+/*Estilos de la sección 3*/
 .bg-section-three {
   background-image: url(../assets/images/conduce.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 50vh;
+  background-size: cover;
 }
 
 .text-section-three {
@@ -147,6 +153,76 @@ ul {
   list-style: none;
 }
 
+/*Estilos de la sección 4*/
+.section-four {
+  padding: 3em 0.5em;
+}
+
+.my-way {
+  margin: 1em 0;
+}
+
+input {
+  background: none;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  margin-left: 0.7em;
+  outline: none;
+  padding: 0.3em;
+  width: 75%;
+}
+
+.my-btn {
+  margin: 2em;
+  text-align:center; 
+}
+
+.btn-default {
+  font-weight: bold;
+  margin: 0 auto;
+ 
+}
+
+input::placeholder {
+  color:#fff;
+}
+
+.img-map {
+  border: 1px solid #fff;
+  padding: 0.7em;
+}
+
+/*Estilos del footer*/
 footer {
-  background-color: #000;
+  background-color: #2b2b2b;
+}
+
+.log-footer {
+  padding: 10px 10px 0;
+  line-height: 2;
+}
+
+.logo-box::after, .labcar-brand::before {
+  content: "";
+  margin: 1.5em 0;
+  display: block;
+  border: 0.5px solid #fff;
+  width: 100%;
+}
+
+.icons {
+  margin: 0.3em;
+}
+
+.app-site {
+  margin-top: 2em;
+}
+
+.google {
+  margin-bottom: 1em;
+}
+
+.labcar-brand {
+  padding-bottom: 1em;
+  padding-left: 2em;
 }
