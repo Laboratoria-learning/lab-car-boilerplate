@@ -40,7 +40,6 @@ aside {
 
 footer {
     background: #343a40;
-    padding: 1rem;
 }
 
 .navbar-brand{
@@ -50,12 +49,11 @@ margin-right: 1rem;
 .footer-one{
     border-bottom-style: solid;
     border-bottom-color: #fff;
-    border-bottom-width: 1px;;
+    border-bottom-width: 1px;
 }
 
 .footer-list-group{
     list-style-type: none;
-    /* margin: 0; */
     padding: 1rem;
 }
 
@@ -75,11 +73,19 @@ div.col-md-3.footer-list-two{
 
 .footer-list-images{
     display: inline-block;
+    margin-top: 1rem;
 }
 
 .footer-image-one,.footer-image-two{
     display: block;
-    margin-right: 1rem;
+}
+
+.footer-three{
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-top-width: 1px;
+    color:#ffffff;
+    padding: 1rem;
 }
 
 /* Small devices (tablets, 768px and up) */
