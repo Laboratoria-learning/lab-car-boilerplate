@@ -8,7 +8,7 @@
     
     ![](assets/images/labcar-original.png)
 
-    ***Imagen referencial de la versión desktop:***
+    ***Imagen referencial de la versión desktop.***
 
 - ## **Contenido**
 
