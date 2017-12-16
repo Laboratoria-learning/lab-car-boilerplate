@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>LabCar</title>
 </head>
@@ -23,7 +24,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"></a>
+          <div class="col-xs-9 col-md-offset-6 col-md-pull-6">
+              <a class="navbar-brand" href="#"></a>
+          </div>
+          
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,10 +45,22 @@
   <!-- First section -->
   <section class="bg-section-one">
     <div class="row">
-      <div class="col-xs-9">
-        <h1 class="white">Comienza a viajar con</h1>
-        <img src="assets/images/logoBlanco.png" alt="Logo blanco">
-        <button>Descarga el app</button>
+      <div class="col-xs-offset-3 .col-xs-push-12 col-md-offset-7 col-md-push-5 bg-yellow elements">
+        <div class="hidden-md hidden-lg white">
+            <h1>Comienza a viajar con 
+              <img class="image-logo" src="assets/images/logoBlanco.png" alt="Logo blanco">
+            </h1>
+            <button type="button" class="btn btn-start">Descarga el app</button>
+          </div>
+        <div class="visible-md visible-lg white">
+          <p class="text-desktop">Disfruta del viaje</p>
+          <p class="text-desktop">Eres dueño de tu tiempo</p>
+          <p>Viaja con <img class="image-logo" src="assets/images/logoBlanco.png" alt="Logo blanco"></p>
+          <button type="button" class="btn btn-start">Regístrate</button>
+          <hr>
+          <button type="button" class="btn btn-start">Conviértete en un conductor</button>
+        </div>
+        
       </div>
     </div>
   </section>
@@ -79,10 +95,12 @@
   <!-- three section -->
   <section class="bg-section-three">
     <div class="row">
-      <div class="col-xs-12 white">
-        <h4>Conduce cuando quierass</h4>
-        <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-        <button>Conviértete en conductor</button>
+      <div class=".col-xs-12 col-md-offset-7 col-md-push-5">
+        <div class="white opaque text-section-three">
+          <h3>Conduce cuando quieras</h3>
+          <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+          <button class="btn btn-section-three bg-yellow">Conviértete en conductor</button>
+        </div>
       </div>
     </div>
   </section>
@@ -103,11 +121,15 @@
   <!-- Footer -->
   <footer>
     <div class="row">
-      <img src="assets/images/logoBlanco.png" alt="Logo Blanco">
+      <div class="col-xs-12 col-md-offset-6 col-md-pull-6">
+        <img class="log-footer" src="assets/images/logoBlanco.png" alt="Logo Blanco">
+      </div>
     </div>
+    
+    <hr>
     <div class="row">
       <div class="col-xs-6">
-        <ul class="white">
+        <ul class="white log-footer">
           <li>Viaja</li>
           <li>Conduce</li>
           <li>Ciudades</li>
@@ -131,6 +153,7 @@
         </div>
       </div>
     </div>
+    <hr>
     <div class="row">
       <i class="fa fa-copyright white" aria-hidden="true"></i>
       <span class="white">2017 LabCar technologies Inc.</span> 
