@@ -240,14 +240,12 @@ footer {
 }
 
 /*Estilos de Modales*/
+/*Modal iniciar sesión*/
+
 .modal-content-register {
   background-color: #08ac9d;
 }
-/*
-.modal-body-register {
-  padding: 0 10em 1em 10em;
-}
-*/
+
 .modal-user {
   text-align: center;
 }
@@ -266,5 +264,25 @@ footer {
   background-color: #f8f8f8;
   border-radius: 4px;
   padding: 2em;
+  text-align: center;
+}
+
+/*Modal conviértete en conductor*/
+.modal-content-driver {
+  background-color: #f8f8f8;
+  border-radius: 7px;
+}
+
+.modal-title-driver {
+  color: #73c7d6;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.send-btn {
   text-align: center;
 }
