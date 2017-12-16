@@ -16,19 +16,21 @@
   <!-- mobile first -->
   <div class="container">
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid row">
           <!-- creando menu hamburguesa para version mobile -->
-          <div class="nabvar-header">
-            <a class="navbar-brand" href="#">
-              <img src="assets/images/logoForma.png" width="130" height="30" alt="">
-            </a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="toggle" data-target="#navbar-1">
+          <div class="nabvar-header col-xs-12 nav-mobile">
+            <button type="button" class="navbar-toggle collapsed button-nav-mobile" data-toggle="toggle" data-target="#navbar-1">
               <span class="sr-only">Menu</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+          </div>
+          <div>
+            <a class="navbar-brand col-xs-4 offset-xs-8 " href="#">
+              <img src="assets/images/logoForma.png" width="130" height="30" alt="logo">
+            </a>
           </div>
           <!-- creando menu version desktop -->
           <div class="collapse navbar-collapse" id="navbar-1">
@@ -37,10 +39,10 @@
                 <a href="#">Viaja</a>
               </li>
               <li>
-                <a href="">Conduce</a>
+                <a href="#">Conduce</a>
               </li>
               <li>
-                <a href="">Inicia Sesión</a>
+                <a href="#">Inicia Sesión</a>
               </li>
             </ul>
           </div>
@@ -102,8 +104,34 @@
     </div>
   </div>
   <footer>
-    <div class="container">
-      <h3>Victoria Lung</h3>
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
+            <span>
+              <img src="assets/images/logoBlanco.png" alt="logoBlanco">
+            </span>
+            <hr>
+            <div>
+              <ul class="link-area">
+                <li> Viaja </li>
+                <br>
+                <li> Conduce </li>
+                <br>
+                <li> Ciudades </li>
+                <br>
+                <li> Entregas </li>
+                <br>
+                <li> Paises </li>
+                <br>
+                <li> Como funciona? </li>
+                <br>
+                <li> Seguridad </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
