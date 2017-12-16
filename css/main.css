@@ -125,6 +125,15 @@ h1, .btn-start, .text-desktop, .btn-section-three {
   .change-map {
     content: url(../assets/images/full-map.png);
   }
+
+  .footer-section {
+    padding: 4em 6em 3em 6em;
+  }
+
+  .apps {
+    transform: translateY(75px);
+  }  
+
 }
 
 /*Estilos de la sección 3*/
@@ -218,6 +227,10 @@ footer {
 
 .google {
   margin-bottom: 1em;
+}
+
+.social-networks {
+  transform: translateY(220px);
 }
 
 .labcar-brand {
