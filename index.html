@@ -8,7 +8,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>LabCar</title>
 </head>
@@ -83,9 +82,6 @@
           Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.
           </p>
         </div>
-
-
-    
     </div>
     <div class="row bg-yellow">
       <p class="white second-text visible-xs visible-sm">Llega a tu destino aún más rápido</p>
@@ -106,16 +102,31 @@
   </section>
 
   <!-- Fourth section -->
-  <section class="bg-yellow">
+  <section class="bg-yellow white section-four">
     <div class="row">
-      <h3>Tarifas</h3>
-      <p>Consulta las tarifas LabCar aquí</p>
-      <div></div>
-      <button>¡TRAZAR RUTA!</button>
+      <div class="rate col-xs-12 col-md-6 col-lg-6">
+          <h4><strong>Tarifas</strong></h4>
+          <h5>Consulta las tarifas LabCar aquí</h5>
+          <div class="my-way">
+            <img src="assets/images/shape.png" alt="circle">
+            <input class="track" type="text" value="" placeholder="Av.Benavides, 1880, ciudad de Lima">
+          </div>
+          <div class="my-way">
+            <img src="assets/images/shape2.png" alt="arrow">
+            <input id="track" type="text" value="" placeholder="La victoria, ruta norte, ciudad de Lima">
+          </div>
+          <div class="my-btn">
+            <button class="btn btn-default">¡TRAZAR RUTA!</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-6">
+              <img class="img-responsive img-map change-map" src="assets/images/map.jpeg" alt="google-map">
+          </div>
+      </div>
     </div>
-    <div class="row">
-      <img src="" alt="Mapa">
-    </div>
+
+    
   </section>
   
   <!-- Footer -->
