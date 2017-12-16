@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>LabCar Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
@@ -28,7 +29,7 @@
             </button>
           </div>
           <div>
-            <a class="navbar-brand col-xs-4 offset-xs-8 " href="#">
+            <a class="navbar-brand col-xs-4 offset-xs-8 nav-mobile-brand" href="#">
               <img src="assets/images/logoForma.png" width="130" height="30" alt="logo">
             </a>
           </div>
@@ -50,89 +51,74 @@
       </nav>
     </header>
   </div>
-  <div class="container">
-    <section class="main row">
-      <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
-        <h3>Article-Article</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium eum, repellendus veritatis, numquam illum
-          nulla voluptas mollitia dignissimos id architecto? Voluptates, laudantium. Itaque reprehenderit molestiae omnis
-          quia earum unde?
-        </p>
-      </article>
-      <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-        <h3>Sidebar-Aside</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quis iure quidem, aspernatur doloribus animi numquam
-          repudiandae nisi officiis unde nesciunt deserunt ducimus tempora nostrum rem nobis consectetur dignissimos veniam!
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, assumenda perferendis unde corporis repellendus
-          minus nemo, quae vitae debitis, omnis voluptatem ipsa odit similique nulla eius sint hic maxime aperiam.
-        </p>
 
-      </aside>
-    </section>
-    <div class="row">
-      <div class="color col-xs-12 col-sm-6 col-md-3 ">
-        <p>
-          <h3>Columna</h3>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
-          beatae iste quia possimus facere ex quidem,
-        </p>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <p>
-          <h3>Columna</h3>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
-          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
-        </p>
-      </div>
-      <!-- <div class="clearfix visible-sm-block"></div> -- sirve para que arreglar cuando una columna es más grande que la otra y deseamos que entre nuestros componentes se vea simetrico -->
-      <div class=" color col-xs-12 col-sm-6 col-md-3 color">
-        <p>
-          <h3>Columna</h3>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
-          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
-        </p>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <p>
-          <h3>Columna</h3>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam consectetur, quas eum repellendus doloribus deleniti consequuntur
-          beatae iste quia possimus facere ex quidem, amet, ratione sapiente quasi eaque nesciunt mollitia!
-        </p>
-      </div>
-    </div>
-  </div>
   <footer>
     <div class="footer" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2  col-md-2 col-sm-12 col-xs-12">
-            <span>
-              <img src="assets/images/logoBlanco.png" alt="logoBlanco">
-            </span>
-            <hr>
-            <div>
-              <ul class="link-area">
-                <li> Viaja </li>
-                <br>
-                <li> Conduce </li>
-                <br>
-                <li> Ciudades </li>
-                <br>
-                <li> Entregas </li>
-                <br>
-                <li> Paises </li>
-                <br>
-                <li> Como funciona? </li>
-                <br>
-                <li> Seguridad </li>
-              </ul>
+          <div class="col-xs-12 footer-one">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logoBlanco.png" width="130" height="30" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="row footer-two">
+          <div class="col-xs-6 col-md-3 footer-list-one">
+            <ul class="footer-list-group">
+              <li>Viaja</li>
+              <li>Conduce</li>
+              <li>Ciudades</li>
+              <li>Ciudades</li>
+              <li>Entregas</li>
+              <li>Cómo funciona?</li>
+              <li>Países</li>
+              <li>Seguridad</li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-list-two">
+            <ul class="footer-list-group">
+              <li>Oportunidades</li>
+              <li>Nuestra historia</li>
+              <li>API de LabCar</li>
+              <li>Eventos</li>
+              <li>Desarrolladores</li>
+              <li>Servicios</li>
+              <li>Laboratoria</li>
+              <li>Coders</li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-md-12">
+            <div class="footer-list-icons">
+              <a href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-apple" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-play" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-xs-3">
+              <div class="footer-list-images">
+                <a class="footer-image-one" href="#">
+                  <img src="assets/images/appstore.png" width="180" height="50" alt="logo">
+                </a>
+                <a class="footer-image-two" href="#">
+                  <img src="assets/images/enBadgeWebGeneric.png" width="180" height="50" alt="logo">
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

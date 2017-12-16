@@ -7,16 +7,17 @@
 }
 
 body {
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .navbar {
     background: #fff;
     border-bottom-color: #fff;
+    padding: 1rem;
 }
 
-footer {
-    background: lightslategray;
+.nav-mobile-brand{
+margin-left:9.5rem;
 }
 
 article {
@@ -34,3 +35,83 @@ aside {
 .button-nav-mobile {
     float: left;
 }
+
+/* footer */
+
+footer {
+    background: #343a40;
+    padding: 1rem;
+}
+
+.navbar-brand{
+margin-right: 1rem;
+}
+
+.footer-one{
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 1px;;
+}
+
+.footer-list-group{
+    list-style-type: none;
+    /* margin: 0; */
+    padding: 1rem;
+}
+
+.footer-list-group li{
+    padding: .5rem;
+    color:#fff;
+}
+
+div.col-md-3.footer-list-two{
+    display: none;
+}
+
+
+.fa-facebook,.fa-twitter,.fa-linkedin,.fa-apple,.fa-play{
+    color:white;
+}
+
+.footer-list-images{
+    display: inline-block;
+}
+
+.footer-image-one,.footer-image-two{
+    display: block;
+    margin-right: 1rem;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+
+    body {
+        padding-top: 80px;
+    }
+
+    div.col-md-3.footer-list-two{
+        display: block;
+    }
+
+    .footer-list-icons{
+        padding-left: 1rem;
+    }
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+ }
