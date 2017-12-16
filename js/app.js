@@ -13,9 +13,7 @@ window.addEventListener('load', function(){
       } else {
         firstInput.setAttribute('placeholder', 'Av.Benavides, 1880, ciudad de Lima');
         secondInput.setAttribute('placeholder', 'La victoria, ruta norte, ciudad de Lima');
-        
       }
     }
     mediaquery.addListener(handleOrientationChange);
-
 });
