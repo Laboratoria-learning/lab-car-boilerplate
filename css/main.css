@@ -25,6 +25,7 @@ section {
     text-align: center;
     outline:1px solid #fff;
     margin-top: 4rem;
+    
 }
 .ima {
     background: url('../assets/images/conduce.jpg')
@@ -86,4 +87,40 @@ footer {
 }
 .descarga-2 {
    display:none;
+}
+
+.app-2 {
+    display: none;
+}
+
+ @media (min-width: 768px) { 
+     
+    .descarga-2 { 
+        display:block ;
+        width: 100%;
+    }
+    .descarga-1 {
+        display: none;
+    }
+    
+    .btn-descarga {
+        width: 40%;
+    }
+    .btn-conductor {
+        width: 60%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+    .app-2 {
+        display: inline-block;
+    }
+    .app {
+        display:none;
+    }
+    .ima-app {
+        width: 50%;
+    }
+    .cont-app {
+        display: inline-block;
+    }
 }
