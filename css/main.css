@@ -48,7 +48,7 @@
 
 .bg-section-one {
   background-image: url(../assets/images/taxi.jpg);
-  background-position: center center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -139,7 +139,7 @@ h1, .btn-start, .text-desktop, .btn-section-three {
   background-image: url(../assets/images/conduce.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 50vh;
+  background-size: cover;
 }
 
 .text-section-three {
