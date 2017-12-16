@@ -53,6 +53,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
+
 }
 
 .elements {
@@ -113,6 +114,7 @@ h1, .btn-start, .text-desktop, .btn-section-three {
     line-height: 1.5;
     letter-spacing: 0.7px;
   }
+  
 }
 
 .btn-start {
