@@ -1,9 +1,11 @@
-/* Los estilos de tu proyecto */
-
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 header {
     color: #fff;
 }
-
 .fondo {
     background: url('../assets/images/taxi.jpg')
                 center center no-repeat;
@@ -34,7 +36,7 @@ section {
 background: rgba(0, 0, 0, 0.6);
 };
 .mapa {
-    outline: 1px solid black;
+    outline: 1px solid #fff;
 }
 footer {
     background: rgb(24, 24, 31);
@@ -47,4 +49,41 @@ footer {
     list-style-type:none;
     color: #fff;  
 }
-
+.btn-descarga {
+    color: black;
+    outline: none; 
+    margin-bottom: 2rem;
+    width: 70%;
+}
+.conduce {
+    padding-top: 4rem;
+}
+#input { 
+    border-radius: 5%;
+    outline:1px solid #fff;
+    width: 80%;
+    display: inline-block;
+    padding: 2%;
+}
+.mapa-container {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom:1rem;
+    padding-top: 1rem;
+    outline: 1px solid #fff;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ruta {
+    margin-top: 1rem;
+    text-align: center;
+   
+}
+.imag-mapa {
+   
+   /* width: 100%;*/
+}
+.descarga-2 {
+   display:none;
+}
