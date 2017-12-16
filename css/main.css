@@ -31,11 +31,6 @@
   width: 50%;
 }
 
-.log-footer {
-  padding: 10px 10px 0;
-  line-height: 2;
-}
-
 .navbar-default .navbar-toggle {
   float: left;
   margin: 0;
@@ -198,4 +193,34 @@ input::placeholder {
 /*Estilos del footer*/
 footer {
   background-color: #2b2b2b;
+}
+
+.log-footer {
+  padding: 10px 10px 0;
+  line-height: 2;
+}
+
+.logo-box::after, .labcar-brand::before {
+  content: "";
+  margin: 1.5em 0;
+  display: block;
+  border: 0.5px solid #fff;
+  width: 100%;
+}
+
+.icons {
+  margin: 0.3em;
+}
+
+.app-site {
+  margin-top: 2em;
+}
+
+.google {
+  margin-bottom: 1em;
+}
+
+.labcar-brand {
+  padding-bottom: 1em;
+  padding-left: 2em;
 }
