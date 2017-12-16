@@ -14,7 +14,7 @@
 }
 
 .opaque {
-  background-color: rgba(56, 53, 54, 0.3);
+  background-color: rgba(5, 5, 7, 0.4);
 }
 
 .navbar {
@@ -33,7 +33,6 @@
 
 .navbar-default .navbar-toggle {
   float: left;
-  margin: 0;
   margin: 10px;
 }
 
@@ -53,32 +52,77 @@
 
 .elements {
   padding: 10px;
+  margin-top: 20vh;
 }
 
 .image-logo {
   display: inline-block;
 }
 
+@media only screen and (max-width : 700px) {
+  .elements {
+    padding: 10px;
+    margin-top: 40vh;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
+  .elements {
+    padding: 10px;
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .elements {
+    padding: 30px;
+    margin-top: 15vh;
+  }
+}
+
+.box-app {
+  padding: 1em;
+}
+
+.box-app-h1 {
+  font-size: 34px;
+}
+
+.btn-app {
+  margin: 20px 0;
+}
+
+.img-white {
+  width: 2em;
+}
+
 .btn-start {
   border-color: #fff;
   background-color: #fff;
   color: inherit;
-  
 }
 
-h1, .btn-start, .text-desktop, .btn-section-three {
+h1, h3, .btn-start, .text-desktop, .btn-section-three {
   font-weight: 900;
 }
 
+h3 {
+  margin: 0.2em;
+}
+
 .text-desktop {
-  font-size: 24px;
+  font-size: 16px;
+  padding-top: 1em;
+}
+
+.img-white-lg {
+  width: 4em;
 }
 
 .btn-start {
   color: #333;
   background-color: #fff;
   border-color: #fff;
- 
 }
 
 /*Estilos de la sección 2*/
@@ -135,23 +179,62 @@ h1, .btn-start, .text-desktop, .btn-section-three {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  image-rendering: auto;
 }
 
 .text-section-three {
   padding: 10px 10px;
   width: 100%;
-  height: 50vh;
+  height: 80vh;
   white-space: normal;
 }
 
 .btn-section-three {
   color: #fff;
   border-color: #f7b617;
+  margin-left: 1.5em;
+  padding: 0.5em;
+  font-size: 17px;
 }
 
 ul {
   list-style: none;
 }
+
+.drive {
+  font-size: 22px;
+  margin-top: 4em;
+  margin-left: 1em;
+}
+
+.labCar {
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width : 700px) {
+  .elements {
+    padding: 10px;
+    margin-top: 40vh;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
+  .elements {
+    padding: 10px;
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .elements {
+    padding: 30px;
+    margin-top: 15vh;
+  }
+}
+
 
 /*Estilos de la sección 4*/
 .section-four {
@@ -191,6 +274,7 @@ input::placeholder {
   border: 1px solid #fff;
   padding: 0.7em;
 }
+
 
 /*Estilos del footer*/
 footer {
