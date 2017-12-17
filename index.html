@@ -55,7 +55,7 @@
           <p>Viaja con <img class="image-logo" src="assets/images/logoBlanco.png" alt="Logo blanco"></p>
           <button type="button" class="btn btn-start" data-toggle="modal" data-target="#myModal">Regístrate</button>
           <hr>
-          <button type="button" class="btn btn-start">Conviértete en un conductor</button>
+          <button type="button" class="btn btn-start" data-toggle="modal" data-target="#myModalDriver">Conviértete en un conductor</button>
         </div>
         
       </div>
@@ -91,7 +91,7 @@
         <div class="white opaque text-section-three">
           <h3 class="drive">Conduce cuando quieras</h3>
           <p class="labCar">LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-          <button class="btn btn-section-three bg-yellow">Conviértete en conductor</button>
+          <button class="btn btn-section-three bg-yellow" data-toggle="modal" data-target="#myModalDriver">Conviértete en conductor</button>
         </div>
       </div>
     </div>
@@ -213,6 +213,84 @@
     </div>
   </div>
 
+   <!-- Modal Conviértete en conductor -->
+  <div class="modal fade" id="myModalDriver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content-driver">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title-driver" id="myModalLabel">Conviértete en conductor</h4>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h5>¿Tienes vehículo de 4 puertas?</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Sí
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Sí</a></li>
+                <li><a href="#">No</a></li>
+              </ul>
+          </div>
+
+          <h5>Marca</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Elije marca de vehículo
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Toyota Corolla</a></li>
+                <li><a href="#">KIA</a></li>
+                <li><a href="#">HYUNDAI</a></li>
+                <li><a href="#">NISSAN</a></li>
+              </ul>
+          </div>
+          <p>¿No ves tu vehículo en la lista? Envía un correo electrónico a: <a>socias@example.com</a></p>
+
+          <h5>Modelo</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Modelo 1
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Modelo 2</a></li>
+                <li><a href="#">Modelo 3</a></li>
+                <li><a href="#">Modelo 4</a></li>
+              </ul>
+          </div>
+
+          <h5>Año</h5>
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                2017
+              <span class="caret"></span>
+            </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">2016</a></li>
+                <li><a href="#">2015</a></li>
+                <li><a href="#">2014</a></li>
+              </ul>
+          </div>
+
+          <h5>Número de matrícula</h5>
+          <div class="input-group input-group-sm">
+            <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-car" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" placeholder="Número de matrícula" aria-describedby="sizing-addon3">
+          </div>
+
+          <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo.</p>
+          <div class="send-btn">
+            <button type="button" class="btn btn-info btn-lg">ENVIAR</button>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
