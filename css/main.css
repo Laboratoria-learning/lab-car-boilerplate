@@ -29,6 +29,7 @@ body {
 
 footer {
     background: #343a40;
+
 }
 
 .footer-container{
@@ -43,21 +44,16 @@ footer {
     border-bottom-style: solid;
     border-bottom-color: #fff;
     border-bottom-width: 1px;
+    padding-bottom: 2%;
 }
 
 .footer-list-group {
     list-style-type: none;
-    padding: 1rem;
 }
 
 .footer-list-group li {
     padding: .5rem;
     color: #fff;
-}
-
-
-div.col-md-6.footer-list-two {
-    display: none;
 }
 
 .footer-list-icons {
@@ -89,7 +85,7 @@ div.col-md-6.footer-list-two {
     border-top-color: #fff;
     border-top-width: 1px;
     color: #ffffff;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 
@@ -102,11 +98,13 @@ div.col-md-6.footer-list-two {
     body {
         padding-top: 80px;
     }
-    div.col-md-6.footer-list-two {
-        display: block;
-    }
+
     .footer-list-icons {
-        padding-left: 1rem;
+        margin-top: 24rem;
+    }
+
+    .footer-list-images{
+        margin-top: 17rem;
     }
 
     .footer-container{
@@ -116,6 +114,10 @@ div.col-md-6.footer-list-two {
 
     .footer-list-group {
         padding-left: 5%;
+    }
+
+    .footer-two,.footer-list-icons,.footer-list-images,.footer-three{
+        padding-bottom: 2%;
     }
 
 }
@@ -131,17 +133,18 @@ div.col-md-6.footer-list-two {
     .footer-container{
         padding: 0 4%;
     }
-}
 
-
-/* Large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {
-    .navbar {
-        padding: 2rem 8.5rem;
+    .footer-list-icons {
+        margin-top: 24rem;
+        margin-right: 6rem;
     }
 
-    .footer-container{
-        padding: 0 4%;
+    .footer-list-images{
+        margin-top: 14rem;
+        margin-left: 5rem;
+    }
+
+    .footer-three{
+        padding-bottom: 2%;
     }
 }
