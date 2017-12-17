@@ -324,14 +324,13 @@ footer {
 }
 
 /*Estilos de Modales*/
-.modal-content-register {
+.modal-content-register, .modal-body-register {
   background-color: #08ac9d;
 }
-/*
+
 .modal-body-register {
-  padding: 0 10em 1em 10em;
+  padding: 0 0 3em;
 }
-*/
 
 /*Modal iniciar sesión*/
 
@@ -360,14 +359,59 @@ footer {
   text-align: center;
 }
 
+.click {
+  color: #FF0000;
+}
+
+.fa-times {
+  color: #fff;
+  background-color: rgb(126, 125, 125);
+  border-radius: 0.2em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+/*Modal Regístrate*/
+.btn-primary {
+  background-color: #000;
+  vertical-align: middle;
+}
+
+.btn-default {
+  background-color: #DDDDDD;
+}
+
+.account {
+  margin-top: -2em;
+  margin-right: 1em;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.container-enrollment {
+  background-color: #A9A9A9;
+}
+
+.input-enrollment {
+  padding: 0.5em;
+}
+
+.btn-send-register {
+  margin: 0.5em 0 1.5em;
+  vertical-align: middle;
+}
+
 /*Modal conviértete en conductor*/
 .modal-content-driver {
-  background-color: #f8f8f8;
+  background-color: 
+  #A9A9A9;
   border-radius: 7px;
 }
 
 .modal-title-driver {
-  color: #73c7d6;
+  color: #198c78;
   font-weight: bold;
 }
 
@@ -378,4 +422,5 @@ h5 {
 
 .send-btn {
   text-align: center;
+  text-transform: uppercase;
 }
