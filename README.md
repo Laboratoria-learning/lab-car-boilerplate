@@ -3,13 +3,22 @@
 
 - ## **Objetivo**
 
-    Recrear la versión desktop y mobile de la siguiente página:
-
-    
-    ![](assets/images/labcar-original.png)
-
-    ***Imagen referencial de la versión desktop.***
+    Recrear la versión desktop y mobile de la página web ***LabCar***.
 
 - ## **Contenido**
 
-    Esta versión fue hecha con el framework ***Bootstrap***.
+    La versión completa fue hecha con el framework ***Bootstrap***.
+
+    - #### **Imagen referencial de la versión desktop:**
+    
+        ![](assets/images/labcar-original.png)
+
+    
+
+    - #### **Modales:**
+
+      ![](assets/images/modal1.png)
+
+      ![](assets/images/modal2.png)
+
+      ![](assets/images/modal3.png)
