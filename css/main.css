@@ -75,7 +75,6 @@
   .box-app {
     padding: 0.5em;
   }
-  
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1023px) {
@@ -83,11 +82,33 @@
     padding: 10px;
     margin-top: 15vh;
   }
+
+  .text-travel {
+    font-size: 14px;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+  }
+
+  .text-desktop {
+    font-size: 18px;
+    padding-top: 0.5em;
+    margin-left: 0.5em;
+  }
 }
 
 @media only screen and (min-width : 1024px) {
   .elements {
     padding: 30px;
+  }
+
+  .text-travel {
+    font-size: 18px;
+    margin-top: 1.5em;
+  }
+
+  .text-desktop {
+    font-size: 24px;
+    padding-top: 0.5em;
   }
 }
 
@@ -117,10 +138,10 @@ h3 {
   margin: 0.2em;
 }
 
-.text-desktop {
-  font-size: 16px;
-  padding-top: 1em;
-}
+/* .text-desktop {
+  font-size: 24px;
+  padding-top: 0.5em;
+} */
 
 .img-white-lg {
   width: 4em;
