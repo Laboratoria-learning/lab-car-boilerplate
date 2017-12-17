@@ -193,25 +193,20 @@
           <img class="profile" src="assets/images/userx.png" alt="user-picture">
         </div>
         <hr>
-        <div class="row">
-          <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
             <div class="modal-body-register">
                 <div class="log-in-input">
-                  <div class="input-group input-group-sm">
+                  <div class="input-group input-group-lg">
                     <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-user-o" aria-hidden="true"></i></span>
                     <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
                   </div>
-                  <div class="input-group input-group-sm">
+                  <div class="input-group input-group-lg">
                     <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-lock" aria-hidden="true"></i></span>
                     <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
                   </div>
-                  <button type="button" class="btn btn-warning">LOG IN</button>
+                  <button type="button" class="btn btn-warning btn-lg">LOG IN</button>
                   <P>Forgot password? <a class="click" href="#">Click here</a></P>
                 </div>
             </div>
-        </div>    
-        </div>
-        
       </div>
     </div>
   </div>
@@ -220,19 +215,17 @@
   <div class="modal fade" id="myModalEnrollment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content container-enrollment">
-        <div class="row">
-          <div class="modal-header">  
-            <div class="col-md-12">
-              <button type="button" class="btn btn-info btn-lg btn-block close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+        <div class="modal-header">
+          <button type="button" class="btn btn-info btn-lg close" data-dismiss="modal" aria-label="Close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </button> 
+        </div> 
+        <div class="modal-body">
+          <div class="row account">
+            <div class="col-md-12">      
               <button type="button" class="modal-title btn btn-primary btn-lg btn-block" id="myModalLabel">Ya tienes una cuenta?</button>
               <h5 class="send-btn">o crea una cuenta nueva</h5>
             </div>
-          </div> 
-        </div>
-        <div class="modal-body">
-          <div class="row account">
             <div class="input-enrollment col-md-6">
               <input type="text" class="form-control" placeholder="Nombre">
             </div>
@@ -240,7 +233,7 @@
               <input type="text" class="form-control" placeholder="Apellido">
             </div>
             <div class="input-enrollment col-md-12">
-              <input type="text" class="form-control" placeholder="Correo Electrónico: ejemplo@correo.mx">
+              <input type="text" class="form-control" placeholder="e-mail: ejemplo@correo.mx">
             </div>
             <div class="input-enrollment col-md-12">
               <input type="text" class="form-control" placeholder="Teléfono">
@@ -252,11 +245,17 @@
               <input type="text" class="form-control" placeholder="Ciudad">
             </div>
             <div class="input-enrollment col-md-12">
-              <input type="text" class="form-control" placeholder="(Opcional) Coódigo de invitación">
+              <input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
             </div>
             <div class="row">  
               <div class="col-md-12">
-                <button type="button" class="btn btn-default btn-lg btn-block">Como te enteraste de nosotros?<i class="fa fa-chevron-down" aria-hidden="true"></i></button>
+                <select class="form-control input-lg btn btn-default btn-lg btn-block">
+                  <option value="question">¿Cómo te enteraste de nosotros?</option>
+                  <option value="radio">Radio</option>
+                  <option value="tv">Televisión</option>
+                  <option value="newspaper">Periódicos</option>
+                  <option value="social">Redes sociales</option>
+                </select>
               </div>
             </div>
             <div class="btn-send-register">
@@ -272,9 +271,9 @@
   <div class="modal fade" id="myModalDriver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content-driver">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title-driver" id="myModalLabel">Conviértete en conductor</h4>
+        <div class="modal-header driver-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+          <h4 class="modal-title-driver" id="myModalLabel"><i class="fa fa-id-card" aria-hidden="true"></i>Be a driver!</h4>
         </div>
         <div class="modal-body">
           <div class="row">
@@ -294,7 +293,7 @@
                 <option value="HYUNDAI">HYUNDAI</option>
                 <option value="NISSAN">NISSAN</option>
               </select>
-              <p>¿No ves tu vehículo en la lista? Envía un correo electrónico a: <a><strong>socias@example.com</strong></a></p>
+              <p>¿No ves tu vehículo en la lista? Envía un correo electrónico a: <a><strong>bdriver@example.com</strong></a></p>
             </div>
             <div class="col-md-12">
               <h4><strong>Modelo</strong></h4>
