@@ -352,16 +352,7 @@ footer {
 }
 
 /*Estilos de Modales*/
-.modal-content-register, .modal-body-register {
-  background-color: #08ac9d;
-}
-
-.modal-body-register {
-  padding: 0 0 3em;
-}
-
 /*Modal iniciar sesión*/
-
 .modal-content-register {
   background-color: #08ac9d;
 }
@@ -382,13 +373,12 @@ footer {
 
 .log-in-input {
   background-color: #f8f8f8;
-  border-radius: 4px;
   padding: 2em;
   text-align: center;
 }
 
 .click {
-  color: #FF0000;
+  color: rgb(56, 172, 164);
 }
 
 .fa-times {
@@ -427,20 +417,31 @@ footer {
 }
 
 .btn-send-register {
-  margin: 0.5em 0 1.5em;
+  margin: 0.5em 1.5em;
   vertical-align: middle;
 }
 
 /*Modal conviértete en conductor*/
 .modal-content-driver {
-  background-color: 
-  #A9A9A9;
-  border-radius: 7px;
+  background-color: #f8f8f8;
 }
 
 .modal-title-driver {
-  color: #198c78;
+  color: #46b8da;
   font-weight: bold;
+  text-align: center;
+}
+
+.driver-header::before, .driver-header::after {
+  content: "";
+  margin: 0;
+  display: block;
+  border: 1px dotted #46b8da;
+  width: 100%;
+}
+
+.fa-id-card {
+  margin-right: 1em;
 }
 
 h5 {
