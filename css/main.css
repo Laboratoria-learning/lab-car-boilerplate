@@ -21,21 +21,27 @@ section {
     float:right;
     margin-top: 15rem;
 }
-.app  {
-    text-align: center;
+.container-app  {
+    /* text-align: center; */
     outline:1px solid #fff;
     margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1%;        
+    
     
 }
 .ima {
     background: url('../assets/images/conduce.jpg')
-                center center;
+                center center no-repeat;
     background-size: 100%;
     min-height: 40vh;
+    /*padding-top: 1%;*/
+    
 }
 .ima-fon {
 background: rgba(0, 0, 0, 0.6);
 };
+
 .mapa {
     outline: 1px solid #fff;
 }
@@ -56,9 +62,9 @@ footer {
     margin-bottom: 2rem;
     width: 70%;
 }
-.conduce {
-    padding-top: 4rem;
-}
+/*.conduce {
+    margin-top: 4rem;
+}*/
 #input { 
     border-radius: 5%;
     outline:1px solid #fff;
@@ -78,30 +84,10 @@ footer {
 }
 .ruta {
     margin-top: 1rem;
-    text-align: center;
-   
-}
-.imag-mapa {
-   
-   /* width: 100%;*/
-}
-.descarga-2 {
-   display:none;
-}
-
-.app-2 {
-    display: none;
+    text-align: center;  
 }
 
  @media (min-width: 768px) { 
-     
-    .descarga-2 { 
-        display:block ;
-        width: 100%;
-    }
-    .descarga-1 {
-        display: none;
-    }
     
     .btn-descarga {
         width: 40%;
@@ -111,16 +97,4 @@ footer {
         color: black;
         margin-bottom: 2rem;
     }
-    .app-2 {
-        display: inline-block;
-    }
-    .app {
-        display:none;
-    }
-    .ima-app {
-        width: 50%;
-    }
-    .cont-app {
-        display: inline-block;
-    }
-}
+  }
