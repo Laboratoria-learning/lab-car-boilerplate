@@ -47,23 +47,35 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
-
 }
-
+/* 
 .elements {
   padding: 10px;
   margin-top: 20vh;
-}
+} */
 
 .image-logo {
   display: inline-block;
+  margin: 0 0.2em;
+  width: 20%;
 }
 
 @media only screen and (max-width : 700px) {
   .elements {
     padding: 10px;
-    margin-top: 40vh;
+    margin-top: 20vh;
   }
+
+  .image-logo {
+    display: inline-block;
+    margin: 0 0.2em;
+    width: 30%;
+  }
+
+  .box-app {
+    padding: 0.5em;
+  }
+  
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1023px) {
@@ -76,12 +88,7 @@
 @media only screen and (min-width : 1024px) {
   .elements {
     padding: 30px;
-    margin-top: 15vh;
   }
-}
-
-.box-app {
-  padding: 1em;
 }
 
 .box-app-h1 {
