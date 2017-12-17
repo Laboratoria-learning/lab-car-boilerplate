@@ -35,17 +35,14 @@ section {
                 center center no-repeat;
     background-size: 100%;
     min-height: 40vh;
-    /*padding-top: 1%;*/
+    padding-top: 2%;
     
 }
 .ima-fon {
-background: rgba(0, 0, 0, 0.6);
+background: rgba(0, 0, 0, 0.5);
+float: right;
 };
-
-.mapa {
-    outline: 1px solid #fff;
-}
-footer {
+footer{
     background: rgb(24, 24, 31);
     padding-top: 2rem;
 }
@@ -62,9 +59,7 @@ footer {
     margin-bottom: 2rem;
     width: 70%;
 }
-/*.conduce {
-    margin-top: 4rem;
-}*/
+
 #input { 
     border-radius: 5%;
     outline:1px solid #fff;
@@ -78,7 +73,7 @@ footer {
     padding-bottom:1rem;
     padding-top: 1rem;
     outline: 1px solid #fff;
-    box-sizing: border-box;
+    
     padding-left: 0;
     padding-right: 0;
 }
