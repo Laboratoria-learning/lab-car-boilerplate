@@ -84,3 +84,158 @@ float: right;
         margin-bottom: 2rem;
     }
   }
+/* Los estilos de tu proyecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 120px;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom-color: #fff;
+    padding: 1rem;
+}
+
+.nav-mobile-brand {
+    margin-left: 8rem;
+}
+
+.button-nav-mobile {
+    float: left;
+}
+
+
+/* footer */
+
+footer {
+    background: #343a40;
+
+}
+
+.footer-container{
+    padding: 0 4%;
+}
+
+.navbar-brand {
+    margin-right: 1rem;
+}
+
+.footer-one {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 2%;
+}
+
+.footer-list-group {
+    list-style-type: none;
+}
+
+.footer-list-group li {
+    padding: .5rem;
+    color: #fff;
+}
+
+.footer-list-icons {
+    margin: 1rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-apple,
+.fa-play {
+    color: white;
+    margin: .3rem;
+}
+
+.footer-list-images {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.footer-image-one,
+.footer-image-two {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer-three {
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-top-width: 1px;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width:768px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+    body {
+        padding-top: 80px;
+    }
+
+    .footer-list-icons {
+        margin-top: 24rem;
+    }
+
+    .footer-list-images{
+        margin-top: 17rem;
+    }
+
+    .footer-container{
+        padding: 0 8%;
+
+    }
+
+    .footer-list-group {
+        padding-left: 5%;
+    }
+
+    .footer-two,.footer-list-icons,.footer-list-images,.footer-three{
+        padding-bottom: 2%;
+    }
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+
+    .footer-container{
+        padding: 0 4%;
+    }
+
+    .footer-list-icons {
+        margin-top: 24rem;
+        margin-right: 6rem;
+    }
+
+    .footer-list-images{
+        margin-top: 14rem;
+        margin-left: 5rem;
+    }
+
+    .footer-three{
+        padding-bottom: 2%;
+    }
+}
+.raya  {
+   
+   display: inline-block;
+   width: 30%;
+}
