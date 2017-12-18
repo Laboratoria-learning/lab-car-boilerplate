@@ -3,19 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
 	<title>LabCar</title>
 	<!-- Bootstrap CSS -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
@@ -49,15 +36,17 @@
 	<section class="bg-container">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-10 ml-auto col-md-4 bg-yellow">
+				<div class="col-10 col-md-6 ml-auto col-lg-4 bg-yellow">
 					<div class="title-content">
-            <h2>Disfruta del viaje</h2>
-            <h2>Eres dueño de tu tiempo</h2>
+            <h2 class="d-none d-sm-block">Disfruta del viaje</h2>
+            <h2 class="d-none d-sm-block">Eres dueño de tu tiempo</h2>
+						<h2 class="d-sm-none">Comienza a viajar con <img src="./assets/images/logoBlanco.png" alt=""> </h2>
           </div>
-					<p class="section-text">Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
-					<a href="" class="btn-app bg-white uppercase">Registrate</a>
-					<span class="separation">O bien </span>
-					<a href="" class="btn-app bg-white">Conviértete en un conductor</a>
+					<p class="section-text d-none d-sm-block">Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
+					<a href="" class="btn-app bg-white uppercase d-none d-sm-inline">Registrate</a>
+					<span class="separation d-none d-sm-block">O bien </span>
+					<a href="" class="btn-app bg-white d-none d-sm-inline">Conviértete en un conductor</a>
+					<a href="" class="btn-app bg-white d-sm-none">Descarga el app</a>
 				</div>
 			</div>
 		</div>
@@ -70,14 +59,16 @@
 					<div class="row">
 						<div class="col-md-6 text-center">
 							<div class="img-container">
+								<h2 class="section-title d-sm-none">La nueva app</h2>
 								<img class="img-fluid" src="assets/images/iPhone6Plus.png" alt="">
 							</div>
 						</div>
 						<div class="col-md-5">
 							<div class="app-text">
-								<h2 class="section-title">Descarga la nueva app</h2>
-								<p class="section-text">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-								<p class="section-text">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a donde ir</p>
+								<h2 class="section-title d-none d-sm-block">Descarga la nueva app</h2>
+								<p class="section-text d-none d-sm-block">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+								<p class="section-text d-none d-sm-block">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a donde ir</p>
+								<p class="section text d-sm-none">Llega a tu destino aún más rápido</p>
 							</div>
 						</div>
 					</div>
@@ -105,10 +96,14 @@
           <h2 class="section-title">Tarifas</h2>
           <p>Consulta las tarifas de LabCar aquí</p>
           <form action="">
-            <label for=""><i></i></label>
-            <input type="text" placeholder="Ingrese su punto de partida">
-            <label for=""><i></i></label>
-            <input type="text" placeholder="Ingrese su destino">
+            <div class="single-input">
+            	<label for=""><img src="./assets/images/shape.png" alt=""></label>
+            	<input class="d-inline-block" type="text" placeholder="Ingrese su punto de partida">
+            </div>
+            <div class="single-input">
+            	<label for=""><img src="./assets/images/shape2.png" alt=""></label>
+            	<input class="d-inline-block" type="text" placeholder="Ingrese su destino">
+            </div>
             <a href="" class="btn-app bg-white uppercase">¡Trazar ruta!</a>
           </form>
         </div>
@@ -125,15 +120,15 @@
         <img src="assets/images/logoBlanco.png" alt="">
         <hr>
       </div>
-      <div class="row footer-content">
+      <div class="row footer-content align-items-end">
         <div class="single-content col-md-3 col-sm-12">
           <div class="social">
             <ul>
-              <li><a href=""><i></i></a></li>
-              <li><a href=""><i></i></a></li>
-              <li><a href=""><i></i></a></li>
-              <li><a href=""><i></i></a></li>
-              <li><a href=""><i></i></a></li>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fab fa-apple"></i></a></li>
+              <li><a href=""><i class="fab fa-google-play"></i></a></li>
             </ul>
           </div>
         </div>
@@ -166,6 +161,7 @@
           <img src="assets/images/enBadgeWebGeneric.png" alt="">
         </div>
       </div>
+			<p class="text-center">2017 LabCar Technologies Inc</p>
     </div>
   </footer>
 
@@ -175,6 +171,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUQTayBoCnk6ubOtvEHcz0rZHVX_NcqQ4"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
