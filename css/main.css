@@ -3,14 +3,12 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-header {
-    color: #fff;
-}
+/*-------primera section fondo taxi/descarga------*/
 .fondo {
     background: url('../assets/images/taxi.jpg')
                 center center no-repeat;
     background-size: 100%;
-    height:85vh;   
+    height:82vh;   
 }
 section {
     background: #ffc107;
@@ -21,15 +19,14 @@ section {
     float:right;
     margin-top: 15rem;
 }
+/*--------Segunda section iphone-----------*/
 .container-app  {
-    /* text-align: center; */
     outline:1px solid #fff;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 1%;        
-    
-    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2%;           
 }
+/*--------tercera section fondo conductor------*/
 .ima {
     background: url('../assets/images/conduce.jpg')
                 center center no-repeat;
@@ -42,10 +39,6 @@ section {
 background: rgba(0, 0, 0, 0.5);
 float: right;
 };
-footer{
-    background: rgb(24, 24, 31);
-    padding-top: 2rem;
-}
 .link-area {
     padding-left: 0;
 }
@@ -67,13 +60,13 @@ footer{
     display: inline-block;
     padding: 2%;
 }
+/*----------cuarta section formulario con mapas-------*/
 .mapa-container {
-    margin-bottom: 1rem;
+   margin-bottom: 1rem;
     margin-top: 1rem;
     padding-bottom:1rem;
     padding-top: 1rem;
-    outline: 1px solid #fff;
-    
+    outline: 1px solid #fff; 
     padding-left: 0;
     padding-right: 0;
 }
@@ -81,10 +74,8 @@ footer{
     margin-top: 1rem;
     text-align: center;  
 }
-
  @media (min-width: 768px) { 
-    
-    .btn-descarga {
+     .btn-descarga {
         width: 40%;
     }
     .btn-conductor {
