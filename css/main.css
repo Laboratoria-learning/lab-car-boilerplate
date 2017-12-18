@@ -115,6 +115,7 @@ body {
 
 footer {
     background: #343a40;
+    padding: 2%;
 
 }
 
@@ -135,6 +136,7 @@ footer {
 
 .footer-list-group {
     list-style-type: none;
+    padding-top:  6%;
 }
 
 .footer-list-group li {
