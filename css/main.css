@@ -4,6 +4,9 @@ body{
 a{
 	color: inherit;
 }
+a:hover, a:focus{
+	text-decoration: none;
+}
 ul{
 	list-style: none;
 	padding: 0;
@@ -18,19 +21,21 @@ ul{
 }
 .btn-app{
 	border-radius: 0.2rem;
+	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
 	padding: 0.7rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .uppercase{
 	text-transform: uppercase;
 }
 .section-padding{
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding: 2rem;
 }
 .section-title{
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
 }
@@ -38,8 +43,12 @@ ul{
 	font-size: 18px;
 }
 /*-------NAVBAR-------*/
+nav.navbar{
+	background-color: white;
+	margin: 0;
+}
 .navbar .navbar-brand{
-	max-width:100px;
+	max-width:120px;
 }
 .navbar .nav-item .nav-link{
 	color: #333;
@@ -48,7 +57,13 @@ ul{
 	padding-right: 1.5rem;
 	padding-left: 1.5rem;
 }
-/*Padduing para el nav link min width 768px
+button.navbar-toggle{
+	float: left;
+	margin: 8px 15px;
+}
+.navbar-brand{
+	float: right;
+}
 /*------BG CONTAINER------*/
 .bg-container{
 	background: url(../assets/images/taxi.jpg);
@@ -59,13 +74,13 @@ ul{
 	padding-bottom: 10rem;
 }
 .bg-container .bg-yellow{
-	padding: 2rem;
+	padding: 2.5rem;
 }
 .bg-container .title-content{
-	margin-bottom: 2rem;
+	margin-bottom: 2.7rem;
 }
 .bg-container .title-content h2{
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin: 0;
 }
 .bg-container .section-text img{
@@ -76,7 +91,6 @@ ul{
 	display: block;
 	margin: 1.5rem auto;
 	position: relative;
-	text-align: center;
 }
 .bg-container .separation::before, .bg-container .separation::after{
 	content: '';
@@ -86,15 +100,14 @@ ul{
 	background-color: white;
 	height: 1px;;
 }
-
 /*-------APP CONTAINER-------*/
 .app-container .img-container{
 	max-width: 300px;
 	margin: 0 auto;
 }
-.phone-container{
+.phone-responsive{
 	border:1px solid white;
-	padding: 3rem;
+	padding: 2rem;
 }
 .app-container .app-text{
 	padding: 1.3rem 2rem;
@@ -110,7 +123,7 @@ ul{
 .conductor-content{
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
-	padding: 5rem 2rem 10rem;
+	padding: 5rem 3rem 16rem;
 }
 /*--------TARIFAS----------*/
 .map-container form{
@@ -122,7 +135,6 @@ ul{
 .map-container .single-input{
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
-	text-align: left;
 }
 .map-container input{
 	background: inherit;
@@ -130,9 +142,9 @@ ul{
 	border-radius: 0.3rem;
 	color: white;
 	font-weight: 300;
-	padding: 0.4rem;
+	padding: 0.8rem;
 	font-size: 14px;
-	width: 70%;
+	width: 80%;
 	margin: auto 0.5rem;
 }
 .map-container input::placeholder{
@@ -140,7 +152,11 @@ ul{
 	font-weight: 300;
 	font-size: 14px;
 }
-input:focus{
+.map-table{
+	padding: 10px;
+	border: 1px solid white;
+}
+input:focus, a:focus, button:focus, select:focus{
 	outline: none;
 }
 #map{
@@ -150,8 +166,10 @@ input:focus{
 footer{
 	background-color: #2B2B2B;
 	color: white;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding: 0 2rem;
+}
+.title-footer{
+	margin:1rem 0 2rem;
 }
 .footer-content{
 	border-top: 1px solid white;
@@ -162,4 +180,75 @@ footer .social li{
 	display: inline-block;
 	margin-right: 0.2rem;
 	margin-left: 0.2rem;
+}
+footer .menu-footer li{
+	margin: 1rem 0;
+}
+footer .img-download{
+	max-width: 180px;
+}
+footer .img-download img{
+	margin: 1rem 0;
+}
+@media(min-width:768px){
+	.navbar-brand{
+		float: left;
+	}
+	.section-padding{
+		padding: 2rem 0;
+	}
+	.phone-container{
+		border:1px solid white;
+		padding: 3rem;
+	}
+	.phone-responsive{
+		border: none;
+		padding: 0;
+	}
+	footer .single-content{
+		float: none;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+}
+
+/*----MODALES-----*/
+.modal-header{
+	background-color: #fcfcfc;
+}
+.modal-content{
+	max-width: 100%;
+	padding: 0;
+}
+.modal-body{
+	margin: 0 1px;
+}
+.body-registro input{
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	margin: 0.5rem 0;
+	padding: 10px;
+}
+.body-registro select{
+	background-color: white;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	margin: 0.5rem 0;
+	height: 40px;
+}
+.modal-img  i{
+	color: rgb(245, 181, 50);
+}
+.modal-footer{
+	background-color: #fcfcfc;
+	text-align: center;
+}
+.modal-content .input-group{
+	margin: 2rem auto;
+}
+.modal-header .account{
+	padding: 10px;
+	background-color: #efefef;
+	border-radius: 5px;
+	margin-bottom: 10px;
 }
