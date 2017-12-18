@@ -1,4 +1,4 @@
-# LabCar challenge
+# LabCar Challenge
 
 * **Track:** _Common Core_
 * **Curso:** _Crea tu propia red social_
