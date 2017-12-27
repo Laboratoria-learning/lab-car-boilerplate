@@ -1,1 +1,243 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*-------primera section fondo taxi/descarga------*/
+.fondo {
+    background: url('../assets/images/taxi.jpg')
+                center center no-repeat;
+    background-size: 100%;
+    height:82vh;   
+}
+section {
+    background: #ffc107;
+    color: #fff;
+}
+.descarga {
+    background: #ffc107;
+    float:right;
+    margin-top: 15rem;
+}
+/*--------Segunda section iphone-----------*/
+.container-app  {
+    outline:1px solid #fff;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 2%;           
+}
+/*--------tercera section fondo conductor------*/
+.ima {
+    background: url('../assets/images/conduce.jpg')
+                center center no-repeat;
+    background-size: 100%;
+    min-height: 40vh;
+    padding-top: 2%;
+    
+}
+.ima-fon {
+background: rgba(0, 0, 0, 0.5);
+float: right;
+};
+.link-area {
+    padding-left: 0;
+}
+.link-area li {
+    list-style-type:none;
+    color: #fff;  
+}
+.btn-descarga {
+    color: black;
+    outline: none; 
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+#input { 
+    border-radius: 5%;
+    outline:1px solid #fff;
+    width: 80%;
+    display: inline-block;
+    padding: 2%;
+}
+/*----------cuarta section formulario con mapas-------*/
+.mapa-container {
+   margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom:1rem;
+    padding-top: 1rem;
+    outline: 1px solid #fff; 
+    padding-left: 0;
+    padding-right: 0;
+}
+.ruta {
+    margin-top: 1rem;
+    text-align: center;  
+}
+ @media (min-width: 768px) { 
+     .btn-descarga {
+        width: 40%;
+    }
+    .btn-conductor {
+        width: 60%;
+        color: black;
+        margin-bottom: 2rem;
+    }
+  }
 /* Los estilos de tu proyecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 120px;
+}
+
+.navbar {
+    background: #fff;
+    border-bottom-color: #fff;
+    padding: 1rem;
+}
+
+.nav-mobile-brand {
+    margin-left: 8rem;
+}
+
+.button-nav-mobile {
+    float: left;
+}
+
+
+/* footer */
+
+footer {
+    background: #343a40;
+    padding: 2%;
+
+}
+
+.footer-container{
+    padding: 0 4%;
+}
+
+.navbar-brand {
+    margin-right: 1rem;
+}
+
+.footer-one {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 2%;
+}
+
+.footer-list-group {
+    list-style-type: none;
+    padding-top:  6%;
+}
+
+.footer-list-group li {
+    padding: .5rem;
+    color: #fff;
+}
+
+.footer-list-icons {
+    margin: 1rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-apple,
+.fa-play {
+    color: white;
+    margin: .3rem;
+}
+
+.footer-list-images {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.footer-image-one,
+.footer-image-two {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer-three {
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-top-width: 1px;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width:768px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+    body {
+        padding-top: 80px;
+    }
+
+    .footer-list-icons {
+        margin-top: 24rem;
+    }
+
+    .footer-list-images{
+        margin-top: 17rem;
+    }
+
+    .footer-container{
+        padding: 0 8%;
+
+    }
+
+    .footer-list-group {
+        padding-left: 5%;
+    }
+
+    .footer-two,.footer-list-icons,.footer-list-images,.footer-three{
+        padding-bottom: 2%;
+    }
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 2rem 8.5rem;
+    }
+
+    .footer-container{
+        padding: 0 4%;
+    }
+
+    .footer-list-icons {
+        margin-top: 24rem;
+        margin-right: 6rem;
+    }
+
+    .footer-list-images{
+        margin-top: 14rem;
+        margin-left: 5rem;
+    }
+
+    .footer-three{
+        padding-bottom: 2%;
+    }
+}
+.raya  {
+   
+   display: inline-block;
+   width: 30%;
+}
