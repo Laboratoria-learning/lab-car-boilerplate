@@ -1,1 +1,183 @@
-/* Los estilos de tu proyecto */
+body{
+	background-color: #f7b617;
+	font-family: 'Lato', 'Roboto', sans-serif;
+	font-size: 12px;}
+
+div div p{
+	color: #fff;
+	font-size:12px;}
+
+footer{
+	background-color: #2b2b2b;
+	color:#fff;}
+
+footer a{
+	color: #fff;
+	font-size: .8rem;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;}
+
+footer a:hover{
+	color: #f7b617;}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 520;
+	color: #fff;}
+
+.container{
+	margin: 0 auto;
+	padding: 20px 40px;}
+
+.container-back{
+	width: 100vw;
+	margin: 0;
+	padding:0 auto;}
+
+.menu{
+	background-color: #fff;}
+
+.menu ul li a{
+	color: #3e3e3e;
+	font-weight: 500;}
+
+.card-taxi{
+		background-color: #f7b617;}
+
+.taxi-logo{
+	height: 20px;
+	margin: 0px 0px 0px 4px;}
+	
+.nav-logo{
+	margin-left: 20px;}
+
+.taxi-back{
+	background:
+	url(../assets/images/taxi.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 600px;
+	background-repeat: no-repeat;}
+
+
+.lines::after,
+.lines::before{
+	background-color: #fff;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	margin: 4px 1rem;
+	width:90px;}
+
+.btn{
+	padding: 2px auto;
+	text-align: center;
+	text-transform: none;}
+
+.btn-sec1,
+.btn-sec1:active{
+	background-color: #fff;
+	border-radius: 5px;
+	color: #2b2b2b;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding:1px 8px;}
+
+.btn-sec1:hover,
+.btn-sec1:visited,
+.btn-sec1:focus{
+	background-color: #2b2b2b;
+	border-radius: 5px;
+	color: #f7b617;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding:1px 8px;}
+
+.phone img{
+	width: 320px;
+	height: 360px;}
+
+.border-box{
+	border: 1px solid #fff;}
+
+
+.card-cond{
+	border-radius: 0;
+	box-shadow: none;
+	color:#fff;
+	height: inherit;}
+
+.cond-sec{
+	background:
+	url(../assets/images/conduce.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	height: 500px;
+	background-repeat: no-repeat;}
+
+.cond-back{
+		background-color: rgba(0,0,0,0.6);}
+
+.placeholder{
+	color: white;
+	border: 1px solid white;}
+
+.logo-footer{
+	padding-bottom: 10px;}
+
+.store-image img{
+	width: 200px;}
+
+.line-footer{
+	border-bottom: 1px solid #fff;}
+
+
+@media (max-width: 480px) {
+		.mob-taxi-back{
+			display: block;
+			margin-top: 0;}
+
+		.desktop-taxi-back{
+			display: none;}
+
+		.card-panel{
+			border-radius: 0;
+			box-shadow: none;
+			color:#fff;
+			height: 290px;}
+
+		.cond-sec{
+			background:
+			url(../assets/images/conduce.jpg);
+			background-size: 100%;
+			background-position: bottom;
+			height: 290px;
+			background-repeat: no-repeat;}
+
+	}
+
+	@media (min-width: 768px) {
+		.mob-taxi-back{
+			display: block;
+			margin-top: 0;}
+
+		.desktop-taxi-back{
+			display: none;}
+
+		.cond-sec{
+			background:
+			url(../assets/images/conduce.jpg);
+			background-size: 100%;
+			background-position: bottom;
+			height: 500px;
+			background-repeat: no-repeat;}
+
+	}
+
+
