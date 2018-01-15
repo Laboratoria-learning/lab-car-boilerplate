@@ -1,1 +1,152 @@
 /* Los estilos de tu proyecto */
+.container-fluid{
+	margin: auto;
+	padding:0;
+	background-color: #F7B617;
+}
+
+
+.brand-logo{
+	background-image: url('assets/images/logoForma.png');
+}
+
+.nav-wrapper{
+	background-color: white;
+	color: white;
+	border: 0;
+	padding:10px;
+}
+
+.menu{
+	color: black;
+	padding:10px;
+}
+
+.brand-logo{
+	padding:10px;
+	margin:10px;
+}
+
+div#registro{
+	background-color:#F7B617;
+	margin-top: 50px;
+	height:350px;
+	padding: 20px;
+	color: white;
+}
+
+
+#registro>p{
+	font-size: 25px;
+}
+
+h2{
+	color: white;
+	font-size: 2em;
+}
+
+
+#convierteConductor{
+	height: 70vh;
+	background-color: rgba(0,0,0,0.5);
+	padding: 80px 25px 40px 40px;
+}
+
+
+.btn{
+	background-color: #FAFAFA;
+	color: black;
+	border-radius: 3px;
+	border: none;
+	text-transform: initial;
+}
+
+div.row{ 
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+div.conductor#tercer-image{
+	color: white;
+}
+
+.new-app{
+	background-color: #F7B617;
+	color:white;
+	margin: 100px;
+	margin-left: 0;
+	border: 2px solid white;
+	border-left: none;
+}
+
+#new-app{
+	padding: 40px;
+}
+
+div.jumbotron#first-image {
+	background-image: url('../assets/images/taxi.jpg');
+	background-size: cover;
+	background-position: bottom;
+	width: auto;
+	/*background: no-repeat;*/
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+div.conductor#tercer-image {
+	background-image: url('../assets/images/conduce.jpg');
+	background-size: cover;
+	background-position: left;
+	width: auto;
+	/*background: no-repeat;*/
+	height: 70vh;
+	margin: 0;
+	padding: 0;
+}
+
+#btnconductor{
+	color: white;
+	background-color: #F7B617;
+	text-transform: initial;
+}
+
+
+div.tarifas{
+	background-color:#F7B617;
+	color:white;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 70vh;
+}
+
+#map{
+	padding: 20px;
+}
+
+div.foot{
+	background-color: #2B2B2B;
+	color:white;
+	margin:0;
+	padding:20px;
+}
+
+
+#copy{
+	margin: 0; 
+	padding: 20px;
+	color: white;
+	text-align:left;
+	background-color: #2B2B2B;
+}
+
+
+@media{
+
+
+	
+}
+
+
