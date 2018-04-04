@@ -11,7 +11,7 @@
 
     - #### **Imagen referencial de la versión desktop:**
     
-        ![](assets/images/labcar-original.png)
+        ![](https://user-images.githubusercontent.com/12226296/38321821-3fb804f2-37fe-11e8-8513-929f79f69d87.png)
 
     
 
