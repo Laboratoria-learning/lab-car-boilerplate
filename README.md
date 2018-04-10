@@ -14,7 +14,8 @@
 El usuario podrá conocer los servicios que ofrece Lab<ar, el diseño es responsive.
 
 ![image](https://user-images.githubusercontent.com/29492900/38571400-05124eb8-3cb6-11e8-900e-10683ea7da10.png)
-![Foodmap](assets/images/footer.jpg) 
+![image](https://user-images.githubusercontent.com/29492900/38571497-469c94a6-3cb6-11e8-8c3f-f218cfa69737.png)
+
  
 
 
