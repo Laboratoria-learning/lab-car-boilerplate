@@ -1,0 +1,23 @@
+* {
+  color: #020101;
+  font-size: 60 px; }
+
+.color-footer {
+  background-color: #2B2B2B; }
+
+#background {
+  background-image: url("../assets/images/taxi.jpg"); }
+
+@keyframes slideIn {
+  from {
+    opacity: 0.5;
+    top: -260px; }
+  to {
+    opacity: 1;
+    top: 100px; } }
+
+.modal-casero {
+  position: fixed;
+  display: none;
+  top: 100 px;
+  right: 50%; }

@@ -1,0 +1,49 @@
+* {
+  // background: black;
+  color: rgb(2, 1, 1);
+  font-size: 60 px;
+}
+
+.color-footer {
+  background-color: #2B2B2B;
+}
+
+#background {
+  background-image: url("../assets/images/taxi.jpg");
+}
+
+// codigo de modal
+
+// @keyframes slideIn {
+//   from {
+//     opacity: 0.5;
+//     top: -260px;
+//   }
+//   to {
+//     opacity: 1;
+//     top: 100px;
+//   }
+// }
+
+// .modal-casero {
+//   position: fixed;
+//   display: none;
+//   top: 100 px;
+//   right: 50%;
+// }
+
+// .modal-animacion {
+//   display: block;
+//   animation-name: slideIn;
+//   animation-duration: 1s;
+// }
+
+// .overlay {
+//     display: none;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     background-color: rgb(0, 0, 0, .5);
+//     height: 100vh;
+//     width: 100vw;
+// }
