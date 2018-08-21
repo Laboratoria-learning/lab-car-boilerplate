@@ -1,0 +1,17 @@
+* {
+  color: #020101;
+  font-size: 60 px; }
+
+.color-footer {
+  background-color: #2B2B2B; }
+
+#background {
+  background-image: url("../assets/images/taxi.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.background-div {
+  background: #F7B617;
+  color: aliceblue; }
