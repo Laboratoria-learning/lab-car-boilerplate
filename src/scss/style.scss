@@ -10,10 +10,20 @@
 
 #background {
   background-image: url("../assets/images/taxi.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+
+.background-div {
+  background: #F7B617;
+  color: aliceblue;
+  // height: 10vh;
+  // width: 50%;
 }
 
 // codigo de modal
-
 // @keyframes slideIn {
 //   from {
 //     opacity: 0.5;
@@ -24,20 +34,17 @@
 //     top: 100px;
 //   }
 // }
-
 // .modal-casero {
 //   position: fixed;
 //   display: none;
 //   top: 100 px;
 //   right: 50%;
 // }
-
 // .modal-animacion {
 //   display: block;
 //   animation-name: slideIn;
 //   animation-duration: 1s;
 // }
-
 // .overlay {
 //     display: none;
 //     position: fixed;

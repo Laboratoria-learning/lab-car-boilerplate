@@ -6,18 +6,12 @@
   background-color: #2B2B2B; }
 
 #background {
-  background-image: url("../assets/images/taxi.jpg"); }
+  background-image: url("../assets/images/taxi.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
-@keyframes slideIn {
-  from {
-    opacity: 0.5;
-    top: -260px; }
-  to {
-    opacity: 1;
-    top: 100px; } }
-
-.modal-casero {
-  position: fixed;
-  display: none;
-  top: 100 px;
-  right: 50%; }
+.background-div {
+  background: #F7B617;
+  color: aliceblue; }
