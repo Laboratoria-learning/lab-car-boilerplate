@@ -1,1 +1,146 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>LAB-AR</title>
+	<link rel="stylesheet" href="assets/fonts/style.css">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script type="text/javascript src="js/app.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<!-- <div class="container-fluid"> -->
+		<div class="container-fluid">
+		<header>
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo lefth"><img src="assets/images/logoForma.png"></a>
+					<ul id="nav-mobile" class="right">
+						<li><a class="menu" href="">Viaja</a></li>
+						<li><a class="menu" href="">Conduce</a></li>
+						<li><a class="menu" href="">Inicia sesion</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- Jumbotron -->
+		<div class="row">
+			<div class="jumbotron" id="first-image">
+				<div class="col s5 offset-s7" id="registro">
+					<h2>Disfruta del viaje</h2>
+					<h2>Eres dueño de tu tiempo</h2>
+					<h5>viaja con</h5><img src="assets/images/logoBlanco.png">	
+					<button class="btn"><strong>
+					REGÍSTRATE</strong></button>
+					<h6>o bien</h6>
+					<button class="btn"><strong>Conviértete en un conductor</strong></button>
+				</div>
+			</div>
+		</div>
+		<!-- Descarga -->
+		<div class="row">
+			<div class="col s10 new-app" id="new-app">
+				<img src="assets/images/iPhone6Plus.png" class="col s4 lefth offset-s1" alt="iPhone6Plus"">
+				<div class=" col s5 right">
+					<h5> <strong>Descarga la nueva app</strong></h5>
+					<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieres aún más fácil y rápido</p>
+					<p>Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Conductor -->
+		<div class="row">
+			<div class="conductor" id="tercer-image">
+				<div class="col s4 right" id="convierteConductor">
+					<h4><strong>Conduce cuando quieras </strong></h4>
+					<p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
+					<button class="btn" id="btnconductor">Conviértete en conductor</button>
+				</div>
+			</div>
+		</div>
+		<!-- Tarifas -->
+		<div class="row">
+			<div class="tarifas col s12" id="forty-image">
+				<div class="col s6 lefth" id="tarifas">
+					<h3>Tarifas</h3>
+					<h6>Consulta las tarifas LabCar aquí</h6>
+					<form action="#">
+						<div class="input-field col s12">
+							<input id="last_name" type="text" class="validate">
+							<label for="last_name">Ingrese su punto de partida</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="last_name" type="text" class="validate">
+							<label for="last_name">Ingrese su destino</label>
+						</div>	
+					</form>
+					<button class="btn"><strong>¡TRAZAR RUTA!</strong></button>
+				</div>
+				<div class="col s6 right" id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15056.114647312743!2d-99.15441075734864!3d19.367911589111117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93d5104cbc6458c!2sCentro+Nacional+de+las+Artes!5e0!3m2!1ses-419!2smx!4v1515952409224" width="400" height="300" frameborder="0" style="border:1px solid white" allowfullscreen></iframe></div>	
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="row">
+			<div class="content col s12 foot">
+				<img src="assets/images/logoBlanco.png"></a><n>
+					<br>
+					<hr>
+					<div class="col s3" id="iconosRedes"> 
+						<span class="icon-facebook"></span>
+						<span class="icon-twitter"></span>
+						<span class="icon-linkedin"></span>
+						<span class="icon-apple"></span>
+						<span class="icon-play"></span>
+					</div>
+					<div class="col s3 iconos">
+						<ul>
+							<li><a class="white-text" href="">Viaja</a></li>
+							<li><a class="white-text" href="">Conduce</a></li>
+							<li><a class="white-text" href="">Ciudades</a></li>
+							<li><a class="white-text" href="">Ciudades</a></li>
+							<li><a class="white-text" href="">Entregas</a></li>
+							<li><a class="white-text" href="">Cómo funciona?</a></li>
+							<li><a class="white-text" href="">Países</a></li>
+							<li><a class="white-text" href="">Seguridad</a></li>
+						</ul>
+					</div>
+					<div class="col s3 iconos">
+						<ul>
+							<li><a class="white-text" href="">Oportunidades</a></li>
+							<li><a class="white-text" href="">Nuestra historia</a></li>
+							<li><a class="white-text" href="">Api de LabCar</a></li>
+							<li><a class="white-text" href="">Eventos</a></li>
+							<li><a class="white-text" href="">Desarrolladores</a></li>
+							<li><a class="white-text" href="">Servicios</a></li>
+							<li><a class="white-text" href="">Laboratoria</a></li>
+							<li><a class="white-text" href="">Colors</a></li>
+						</ul>
+					</div>
+					<div class="col s3">
+						<img src="assets/images/appstore.png">
+						<img src="assets/images/enBadgeWebGeneric.png">
+					</div>
+					<div class="row col s12">
+					<hr>	
+					</div>
+					
+				</div>
+				
+				<div class=" row col s12" id="copy">
+				2017 LabCar technologies Inc.
+			</div>
+			</div>
+		</div>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+	</body>
+	</html>
