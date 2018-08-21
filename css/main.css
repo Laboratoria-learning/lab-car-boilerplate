@@ -1,1 +1,455 @@
-/* Los estilos de tu proyecto */
+* {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-yellow {
+  background-color: #f7b617;
+}
+
+.white {
+  color: #fff;
+}
+
+.opaque {
+  background-color: rgba(5, 5, 7, 0.4);
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  background-image: url(../assets/images/logoForma.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 50%;
+  padding: 30px;
+  width: 50%;
+}
+
+.navbar-default .navbar-toggle {
+  float: left;
+  margin: 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+.bg-section-one {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+/* 
+.elements {
+  padding: 10px;
+  margin-top: 20vh;
+} */
+
+.image-logo {
+  display: inline-block;
+  margin: 0 0.2em;
+  width: 20%;
+}
+
+@media only screen and (max-width : 700px) {
+  .elements {
+    padding: 10px;
+    margin-top: 20vh;
+  }
+
+  .image-logo {
+    display: inline-block;
+    margin: 0 0.2em;
+    width: 30%;
+  }
+
+  .box-app {
+    padding: 0.5em;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
+  .elements {
+    padding: 10px;
+    margin-top: 15vh;
+  }
+
+  .text-travel {
+    font-size: 14px;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+  }
+
+  .text-desktop {
+    font-size: 18px;
+    padding-top: 0.5em;
+    margin-left: 0.5em;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .elements {
+    padding: 30px;
+  }
+
+  .text-travel {
+    font-size: 18px;
+    margin-top: 1.5em;
+  }
+
+  .text-desktop {
+    font-size: 24px;
+    padding-top: 0.5em;
+  }
+}
+
+.box-app-h1 {
+  font-size: 34px;
+}
+
+.btn-app {
+  margin: 20px 0;
+}
+
+.img-white {
+  width: 2em;
+}
+
+.btn-start {
+  border-color: #fff;
+  background-color: #fff;
+  color: inherit;
+}
+
+h1, h3, .btn-start, .text-desktop, .btn-section-three {
+  font-weight: 900;
+}
+
+h3 {
+  margin: 0.2em;
+}
+
+/* .text-desktop {
+  font-size: 24px;
+  padding-top: 0.5em;
+} */
+
+.img-white-lg {
+  width: 4em;
+}
+
+.btn-start {
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/*Estilos de la sección 2*/
+@media only screen and (max-width : 992px) {
+  .section-two-xs {
+    padding: 2em 1em 0 1em;
+ }
+
+  .mobile-box-xs {
+    border: 1px solid #fff;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding: 2em;
+  }
+
+  .first-text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .second-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .section-two-lg {
+    padding: 2em 0;
+  }
+  .mobile-box-lg {
+    border: 1px solid #fff;
+    border-left: 0;
+    padding: 1em;
+  }
+
+  .textbox {
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+  }
+  
+  .rate {
+    padding: 3em 8em 3em 7em;
+  }
+
+  .change-map {
+    content: url(../assets/images/full-map.png);
+  }
+
+  .footer-section {
+    padding: 4em 6em 3em 6em;
+  }
+
+  .apps {
+    transform: translateY(75px);
+  }  
+
+}
+
+/*Estilos de la sección 3*/
+.bg-section-three {
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: auto;
+}
+
+.text-section-three {
+  padding: 10px 10px;
+  width: 100%;
+  height: 80vh;
+  white-space: normal;
+}
+
+.btn-section-three {
+  color: #fff;
+  border-color: #f7b617;
+  margin-left: 1.5em;
+  padding: 0.5em;
+  font-size: 17px;
+}
+
+ul {
+  list-style: none;
+}
+
+.drive {
+  font-size: 22px;
+  margin-top: 4em;
+  margin-left: 1em;
+}
+
+.labCar {
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width : 700px) {
+  .elements {
+    padding: 10px;
+    margin-top: 40vh;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1023px) {
+  .elements {
+    padding: 10px;
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .elements {
+    padding: 30px;
+    margin-top: 15vh;
+  }
+}
+
+
+/*Estilos de la sección 4*/
+.section-four {
+  padding: 3em 0.5em;
+}
+
+.my-way {
+  margin: 1em 0;
+}
+
+input {
+  background: none;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  margin-left: 0.7em;
+  outline: none;
+  padding: 0.3em;
+  width: 75%;
+}
+
+.my-btn {
+  margin: 2em;
+  text-align:center; 
+}
+
+.btn-default {
+  font-weight: bold;
+  margin: 0 auto;
+ 
+}
+
+input::placeholder {
+  color:#fff;
+}
+
+.img-map {
+  border: 1px solid #fff;
+  padding: 0.7em;
+}
+
+
+/*Estilos del footer*/
+footer {
+  background-color: #2b2b2b;
+}
+
+.log-footer {
+  padding: 10px 10px 0;
+  line-height: 2;
+}
+
+.logo-box::after, .labcar-brand::before {
+  content: "";
+  margin: 1.5em 0;
+  display: block;
+  border: 0.5px solid #fff;
+  width: 100%;
+}
+
+.icons {
+  margin: 0.3em;
+}
+
+.app-site {
+  margin-top: 2em;
+}
+
+.google {
+  margin-bottom: 1em;
+}
+
+.social-networks {
+  transform: translateY(220px);
+}
+
+.labcar-brand {
+  padding-bottom: 1em;
+  padding-left: 2em;
+}
+
+/*Estilos de Modales*/
+/*Modal iniciar sesión*/
+.modal-content-register {
+  background-color: #08ac9d;
+}
+
+.modal-user {
+  text-align: center;
+}
+
+.input-group, .btn-warning {
+  margin: 1em;
+}
+
+.profile {
+  border-radius: 7px;
+  width: 200px;
+  margin-top: 1.5em;
+}
+
+.log-in-input {
+  background-color: #f8f8f8;
+  padding: 2em;
+  text-align: center;
+}
+
+.click {
+  color: rgb(56, 172, 164);
+}
+
+.fa-times {
+  color: #fff;
+  background-color: rgb(126, 125, 125);
+  border-radius: 0.2em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+/*Modal Regístrate*/
+.btn-primary {
+  background-color: #000;
+  vertical-align: middle;
+}
+
+.btn-default {
+  background-color: #DDDDDD;
+}
+
+.account {
+  margin-top: -2em;
+  margin-right: 1em;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.container-enrollment {
+  background-color: #A9A9A9;
+}
+
+.input-enrollment {
+  padding: 0.5em;
+}
+
+.btn-send-register {
+  margin: 0.5em 1.5em;
+  vertical-align: middle;
+}
+
+/*Modal conviértete en conductor*/
+.modal-content-driver {
+  background-color: #f8f8f8;
+}
+
+.modal-title-driver {
+  color: #46b8da;
+  font-weight: bold;
+  text-align: center;
+}
+
+.driver-header::before, .driver-header::after {
+  content: "";
+  margin: 0;
+  display: block;
+  border: 1px dotted #46b8da;
+  width: 100%;
+}
+
+.fa-id-card {
+  margin-right: 1em;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.send-btn {
+  text-align: center;
+  text-transform: uppercase;
+}
