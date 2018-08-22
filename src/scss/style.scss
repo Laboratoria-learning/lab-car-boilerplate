@@ -11,16 +11,25 @@
 #background {
   background-image: url("../assets/images/taxi.jpg");
   height: 100vh;
-  width: 100%;
+  // width: 100%;
   background-size: 100% 100%;
   background-repeat:no-repeat;
 }
 
-.background-div {
+.div-a {
+  padding-top: 50px;
   background: #F7B617;
   color: aliceblue;
-  // height: 10vh;
-  // width: 50%;
+  height: 40%;
+}
+.lavcar-f {
+  // margin-top: 40px;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.margin-header {
+  margin-bottom: 75px
 }
 
 // codigo de modal
