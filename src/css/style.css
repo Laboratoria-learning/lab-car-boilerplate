@@ -1,0 +1,25 @@
+* {
+  color: #020101;
+  font-size: 60 px; }
+
+.color-footer {
+  background-color: #2B2B2B; }
+
+#background {
+  background-image: url("../assets/images/taxi.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.div-a {
+  padding-top: 50px;
+  background: #F7B617;
+  color: aliceblue;
+  height: 40%; }
+
+.lavcar-f {
+  color: antiquewhite;
+  font-size: 30px; }
+
+.margin-header {
+  margin-bottom: 75px; }
